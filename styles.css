@@ -48,3 +48,64 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	background-color: #000000;
+}
+
+#header {
+	background-color: #d9d7ca;
+	/* border: 2px solid  #ececec; */
+	width: 98%;
+	height: auto;
+	left: 10px;
+	position: fixed;
+}
+
+#stubby-logo {
+	max-width: 12%;
+	height: auto;
+	display: block;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+
+#header-img {
+	height: 1px;
+	width: 1px;
+	display: block;
+}
+
+
+#nav-bar {
+	float: right;
+	display: flex;
+	margin-top: -70px;
+	margin-right: 10px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color:  #58007e;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 12px;
+}
+
+.nav-divider {
+	margin-right: 10px;
+}
+
+.nav-link:hover {
+	color:  #b200fd;
+	font-weight: 700;
+}
+
+#meet-stubby {
+	background-color: #d9d7ca;
+	width: 98%;
+	position: relative;
+	margin-left: 10px;
+	top: 350px;
+}
