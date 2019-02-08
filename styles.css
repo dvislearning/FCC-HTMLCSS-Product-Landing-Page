@@ -55,11 +55,13 @@ body {
 
 #header {
 	background-color: #d9d7ca;
-	/* border: 2px solid  #ececec; */
 	width: 98%;
 	height: auto;
 	left: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid  #ececec; 
 	position: fixed;
+	z-index: 20;
 }
 
 #stubby-logo {
@@ -102,10 +104,45 @@ body {
 	font-weight: 700;
 }
 
-#meet-stubby {
+#below-header {
+	color: #292929;
 	background-color: #d9d7ca;
 	width: 98%;
+	height: auto;
+	font-family: Georgia, serif;
 	position: relative;
 	margin-left: 10px;
-	top: 350px;
+	padding-top: 30px;
+	top: 120px;
+	/* overflow: hidden; */
+
+}
+
+.page-section {
+	width: 85%;
+	margin: auto;
+}
+
+#meet-stubby {
+	position: relative;
+}
+
+.section-header {
+	color: #050709;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+
+#meet-stubby-content {
+	font-size: 20px;
+	font-weight: 550;
+	line-height: 25px;
+}
+
+.stubby-paragraph {
+	margin-bottom: 15px;
 }
