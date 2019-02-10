@@ -154,7 +154,7 @@ body {
 	margin-bottom: 15px;
 }
 
-#our-menu {
+#our-menu, #order-content {
 	margin-top: 50px;
 }
 
@@ -210,6 +210,7 @@ body {
 	width: 500px;
 	height: auto;
 	padding-top: 10px;
+	margin-left: 15px;
 	font-style: italic;
 	text-align: center;
 	font-weight: 550;
@@ -228,5 +229,7 @@ body {
 	#vid-caption {
 		width: 200px;
 		height: auto;
+		margin-left: 0;
 	}
 }
+
