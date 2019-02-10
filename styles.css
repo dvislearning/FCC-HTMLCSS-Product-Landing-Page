@@ -118,6 +118,13 @@ body {
 
 }
 
+.section-anchor {
+	display: block;
+	height: 120px;
+	margin-top: -120px;
+	visibility: hidden;
+}
+
 .page-section {
 	width: 85%;
 	margin: auto;
@@ -145,4 +152,81 @@ body {
 
 .stubby-paragraph {
 	margin-bottom: 15px;
+}
+
+#our-menu {
+	margin-top: 50px;
+}
+
+#menu-container {
+	border: 5px solid #2a2a2a;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	padding: 5px 0 5px 0;
+	justify-content: space-around;
+}
+
+@media (max-width: 450px) {
+
+.menu-item-container img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+#menu-container {
+	border: none;
+	width: 97%;
+	display: block;
+}
+}
+
+.menu-item-container {
+	color: #050709;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 750;
+}
+
+.menu-pic {
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	border-radius: 10%;
+	margin-top: 5px;
+}
+
+#video-container {
+	display: block;
+	margin-top: 25px;
+	margin-left: 250px;
+}
+
+#vid-caption {
+	width: 500px;
+	height: auto;
+	padding-top: 10px;
+	font-style: italic;
+	text-align: center;
+	font-weight: 550;
+}
+
+@media (max-width: 450px) {
+	#video-container {
+		margin-left: 5px;
+	}
+
+	#video {
+		width: 250px;
+		height: 200px;
+	}
+
+	#vid-caption {
+		width: 200px;
+		height: auto;
+	}
 }
