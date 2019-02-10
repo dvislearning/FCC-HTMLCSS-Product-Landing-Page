@@ -233,3 +233,31 @@ body {
 	}
 }
 
+#form-section {
+	display: block;
+	text-align: center;
+	margin-bottom: 130px;
+}
+
+#form-section h2{
+	color: #1c2833;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 7px;
+}
+
+#form-section p {
+	color: #4b6a88;
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+
+footer {
+	background-color: #c0b98c;
+	font-size: 13px;
+	font-family: Impact, Charcoal, sans-serif;
+	color: #0f4880;
+	padding: 20px 10px 20px 0;
+	text-align: right;
+	border-top: 1px solid  #ececec; 
+}
